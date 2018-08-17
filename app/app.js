@@ -201,6 +201,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "mobilenumber":"mobile Number",
       "required":"Required",
       "name":"Name",
+      "machinestatus":"Machine Status",
       "operatorregistration":"Operator Registration",
       "operatorname":"Operator Name",
       "others":"Others",
@@ -327,6 +328,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "notvaliedemailid":"Not valid email",
       "onlynumbersallowedmaximum10numbers":"Only Numbers Allowed, Maximum 10 Numbers",
       "send":"Send",
+      "remaining":"Remaining",
 
 
       "registrationcompleted":"Registration completed",
@@ -350,7 +352,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
      "login":"உள் நுழை",
      "username":"பயனர் பெயர்",
      "password":"கடவுச்சொல்",
-     "signup":"இணைந்ததற்கு",
+     "signup":"பதிவு செய்க",
      "forgotpassword":"கடவுச்சொல்லை மறந்துவிட்டீர்களா",
      "haveaccount":"கணக்கு வைத்திருக்கவில்லையா",
      "signintocontinue":"Yantra24x7 உடன் தொடர்ந்து உள்நுழைவதற்கு",
@@ -389,7 +391,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "cycletime":"சுழற்சி நேரம்",
       "runtime":"இயக்கம்",
       "downtime":"செயல்படாத நேரம்",
-      "stoptime":"நேரம் நிறுத்தவும்",
+      "stoptime":"நிறுத்தப்பட்ட நேரம்",
       "nos":"nos",
       "notavaliable":"கிடைக்கவில்லை",
       "currentshiftdetails":"தற்போதைய வேலை விவரங்கள",
@@ -412,16 +414,17 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "axisnumber":"அச்சு எண்",
       "page":"பக்கம்",
       "export":"ஏற்றுமதி",
+      "machinestatus":"இயந்திர நிலை",
       "search":"தேடல்",
       "overallalertreport":"ஒட்டுமொத்த எச்சரிக்கை அறிக்கை",
       "message":"செய்தி",
       "of":"இன்",
       "alarmreport":"எச்சரிக்கை அறிக்கை",
-      "selectmachine":"இயந்திரத்தைத் தேர்ந்தெடுக்கவும்",
+      "selectmachine":"இயந்திரம்",
       "selecttype":"வகை தேர்ந்தெடு",
        "fromdate":"முதல் தேதி",
        "todate":"கடைசி தேதி",
-       "all":"அனைத்து",
+       "all":"அனைத்தும்",
        "viewreport":"அறிக்கை",
        "selectoperator":"இயக்குபவர் தேர்ந்தெடு",
        "operator":"இயக்குபவர்",
@@ -431,7 +434,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
        "operatorname":"இயக்குபவர் பெயர்",
        "alarmtime":"எச்சரிக்கை நேரம்",
        "alarmmessage":"எச்சரிக்கை செய்தி",
-       "selectshift":"வேலை தேர்ந்தெடுக்கவும்",
+       "selectshift":"வேலை தேர்ந்தெடு",
        "alarmnumber":"எச்சரிக்கை எண்",
        "report":"அறிக்கை",
        "split":"பிளவு",
@@ -516,7 +519,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "stopping":"நிறுத்தும்",
       "remaining":"மீதமுள்ள",
       "graphicalrepresentation":"வரைகலை பிரதிநிதித்துவம்",
-      "selectmachinename":"இயந்திரத்தின் பெயரைத் தேர்ந்தெடுக்கவும்",
+      "selectmachinename":"இயந்திரத்தின் பெயர்",
       "selectdate":"தேதி தேர்வு",
       "parts":"பாகங்கள்",
       "jobregistration":"வேலை பதிவு",
@@ -610,6 +613,7 @@ config(['$locationProvider', '$routeProvider','$translateProvider', function ($l
       "notvalidemailid":"சரியான மின்னஞ்சல் இல்லை",
       "onlynumbersallowedmaximum10numbers":"எண்கள் மட்டுமே அனுமதிக்கப்பட்டன, அதிகபட்சம் 10 எண்கள்",
       "send":"அனுப்பு",
+      "remaining":"மீதமுள்ள",
 
 
       "registrationcompleted":"பதிவு முடிந்தது",
@@ -648,6 +652,7 @@ var hi_translations = {
       "operatorentry":"ऑपरेटर प्रविष्टि",
       "machine":"मशीन",
       "machines":"मशीनों",
+      "machinestatus":"मशीन की स्थिति",
       "shift":"खिसक जाना",
       "client":"ग्राहक",
       "job":"काम",
@@ -846,6 +851,7 @@ var hi_translations = {
       "notvalidemailid":"वैध ईमेल नहीं है",
       "onlynumbersallowedmaximum10numbers":"केवल संख्या अनुमत, अधिकतम 10 संख्याएं",
       "send":"भेजना",
+      "remaining":"शेष",
 
 
       "registrationcompleted":"पंजीकरण पूरा हो गया",
@@ -1075,3 +1081,4 @@ var hi_translations = {
       };
     }
   ]);
+

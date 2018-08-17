@@ -9,8 +9,8 @@ angular.module('login', ['ngRoute'])
     });
   }])
 
-  .controller('LoginCtrl', ['$scope', '$http', '$location', '$window', '$rootScope',
-    function ($scope, $http, $location, $window, $rootScope) {
+  .controller('LoginCtrl', ['$scope', '$http', '$location', '$window', '$rootScope','$translate',
+    function ($scope, $http, $location, $window, $rootScope,$translate) {
 
       $scope.email = {
         text: 'me@example.com'

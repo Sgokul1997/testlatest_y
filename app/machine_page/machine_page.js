@@ -399,10 +399,10 @@ angular.module('machines', ['ngRoute'])
 
                               var data = {
                             labels: [
-                              "Running",
-                              "Idle",
-                              "Stopped",
-                              "Remaining"
+                              ($translate.instant('running')),
+                              ($translate.instant('idle')),
+                              ($translate.instant('stoptime')),
+                              ($translate.instant('remaining'))
                             ],
                             datasets: [
                               {
